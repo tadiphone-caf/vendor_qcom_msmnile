@@ -18,6 +18,12 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/msmnile
 
 PRODUCT_COPY_FILES += \
+    vendor/qcom/msmnile/proprietary/vendor/etc/sensors/config/lsm6ds3c_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6ds3c_0.json \
+    vendor/qcom/msmnile/proprietary/vendor/etc/sensors/config/lsm6ds3c_0_8g.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6ds3c_0_8g.json \
+    vendor/qcom/msmnile/proprietary/vendor/etc/sensors/config/msmnile_lsm6ds3c_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_lsm6ds3c_0.json \
+    vendor/qcom/msmnile/proprietary/vendor/etc/sensors/config/msmnile_lsm6dsm_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_lsm6dsm_0.json \
+    vendor/qcom/msmnile/proprietary/vendor/etc/sensors/config/msmnile_qrd_lsm6ds3c_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_qrd_lsm6ds3c_0.json \
+    vendor/qcom/msmnile/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/qcom/msmnile/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/qcom/msmnile/proprietary/vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.truly_cmb433.so \
     vendor/qcom/msmnile/proprietary/vendor/lib64/camera/com.qti.sensor.imx318.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx318.so \
@@ -100,4 +106,5 @@ PRODUCT_COPY_FILES += \
     vendor/qcom/msmnile/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
     vendor/qcom/msmnile/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
     vendor/qcom/msmnile/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
-    vendor/qcom/msmnile/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so
+    vendor/qcom/msmnile/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
+    vendor/qcom/msmnile/proprietary/vendor/lib64/sensors.oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.oem.so
